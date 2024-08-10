@@ -42,6 +42,18 @@
    - Make updates easily
 2. In SQL, you will be able to map multiple tables using the JOIN clause.
 
+### SQL Joins (INNER, LEFT, RIGHT, FULL)
+1. JOIN and ON clauses used together will enable you to merge two tables.
+2. JOIN, ON & AND clause will enable you to merge two tables based on multiple columns.
+3. There is an export button in the SQL editor through which you can download results as a .csv file.
+4. You can assign an abbreviated letter next to the table name to shorten the query length.
+5. There are multiple kinds of JOIN in SQL: INNER, LEFT, RIGHT, FULL, and CROSS JOIN.
+6. By default, SQL performs an INNER JOIN.
+7. LEFT, RIGHT, and FULL JOINS are also called OUTER JOIN.
+8. UNION clause will enable you to perform FULL JOIN.
+
+
+
 
 ### Window functions: OVER clause  
 1. window function performs a calculation across a specified set of table rows with reference to the current row.
