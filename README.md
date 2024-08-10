@@ -1,4 +1,4 @@
-# SQLNinjas Bootcamp
+# SQL Ninjas Bootcamp
 
 ### 1. Retrieve Data Using Text Query (SELECT, WHERE, DISTINCT, LIKE)
 1. SELECT, FROM, and WHERE are the basic SQL functions.
@@ -42,7 +42,7 @@
    - Make updates easily
 2. In SQL, you will be able to map multiple tables using the JOIN clause.
 
-### SQL Joins (INNER, LEFT, RIGHT, FULL)
+### 6. SQL Joins (INNER, LEFT, RIGHT, FULL)
 1. JOIN and ON clauses used together will enable you to merge two tables.
 2. JOIN, ON & AND clause will enable you to merge two tables based on multiple columns.
 3. There is an export button in the SQL editor through which you can download results as a .csv file.
@@ -52,6 +52,21 @@
 7. LEFT, RIGHT, and FULL JOINS are also called OUTER JOIN.
 8. UNION clause will enable you to perform FULL JOIN.
 
+### 7. Cross Join
+1. Concatenation means combining two text strings together.
+2. CONCAT clause in SQL will help you combine two text strings.
+3. Knowing Excel will help in your understanding of SQL.
+4. CROSS JOIN is useful when you do not have any common column between two tables.
+
+### 8. Analytics on Two Tables
+1. You would need to merge the tables often to create meaningful insights for business.
+2. Spend time to understand JOIN thoroughly as you will use it a lot in SQL.
+3. Finding TOP N / BOTTOM N is another common business use case which you can achieve by ORDER BY
+
+### 9. Join More Than Two Tables
+1. Whenever you get a requirement from a business stakeholder break the challenge down into simpler pieces before writing a query.
+2. Entity Relationship Diagram (ERD) will help you to understand the relationship between the tables.
+3. group_concat function will enable you to combine text from multiple rows into one row.
 
 
 
