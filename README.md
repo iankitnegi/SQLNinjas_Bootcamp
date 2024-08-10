@@ -28,6 +28,13 @@
 2. GROUP BY and HAVING clauses are often used together.
 3. The column you use in HAVING should be present in SELECT clause whereas, WHERE can use columns that is not present in select clause as well.
 
+### 5. Calculated Columns (IF, CASE, YEAR, CURYEAR)
+1. You can derive new columns from the existing columns in a table.
+2. As a data analyst, Revenue and Profit are the most common metrics that you will calculate in any industry.
+3. Currency conversion and unit conversion are important business use cases of SQL.
+4. IF function is often used in SQL queries.
+5. When you have more than two conditions, you need to use CASE and END functions instead of the IF function.
+
 ### Window functions: OVER clause  
 1. window function performs a calculation across a specified set of table rows with reference to the current row.
 2. over() clause is a window function that will execute the aggregation formula across a specified set of rows.
