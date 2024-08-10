@@ -1,6 +1,6 @@
 # SQLNinjas Bootcamp
 
-### Retrieve Data Using Text Query (SELECT, WHERE, DISTINCT, LIKE)
+### 1. Retrieve Data Using Text Query (SELECT, WHERE, DISTINCT, LIKE)
 1. SELECT, FROM, and WHERE are the basic SQL functions.
 2. star means all columns. Using ‘*’ after the SELECT query will select all columns of a database.
 3. With the help of the USE function, you can indicate the query to use a particular database, especially when there are multiple databases.
@@ -9,13 +9,24 @@
 6. ‘%’ is a wild card search.
 7. Use the LIKE function and ‘%’ to filter the rows based on a text value.
 
-### Retrieve Data Using Numeric Query (BETWEEN, IN, ORDER BY, LIMIT, OFFSET)  
+### 2. Retrieve Data Using Numeric Query (BETWEEN, IN, ORDER BY, LIMIT, OFFSET)  
 1. <, ≤, >, ≥ are the basic numerical operators used in SQL.
 2. You can also use AND, OR, BETWEEN, and IN to perform numerical queries.
 3. You can sort the table by using the ‘ORDER BY’ clause.
 4. By default, it sorts the data in ascending order but you can specify the sort order.
 5. LIMIT clause can be used to fetch the top ‘N’ or bottom ‘N’ amount of records. ‘N’ can be any numerical value.
 6. OFFSET clause will help you to skip a certain number of rows in your final result.
+
+### 3. Summary Analytics (MIN, MAX, AVG, GROUP BY)
+1. Knowing summary analytics in SQL will enable you to perform AD HOC analysis which is an important business use case.
+2. MAX, MIN, and AVG are the common summary analytics function of SQL.
+3. You can define a custom column header name by using the ‘AS’ clause.
+4. GROUP BY clause will help you to create a summary of metrics such as average, count, etc., for selected column(s).
+
+### 4. HAVING Clause
+1. The order of query execution in SQL is FROM →WHERE → GROUP BY → HAVING → ORDER BY
+2. GROUP BY and HAVING clauses are often used together.
+3. The column you use in HAVING should be present in SELECT clause whereas, WHERE can use columns that is not present in select clause as well.
 
 ### Window functions: OVER clause  
 1. window function performs a calculation across a specified set of table rows with reference to the current row.
