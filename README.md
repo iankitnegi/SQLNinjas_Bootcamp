@@ -35,6 +35,14 @@
 4. IF function is often used in SQL queries.
 5. When you have more than two conditions, you need to use CASE and END functions instead of the IF function.
 
+### Why do we Need Multiple Tables?
+1. Companies use multiple tables to store data:
+   - To save space by avoiding repetition
+   - Organize data better
+   - Make updates easily
+2. In SQL, you will be able to map multiple tables using the JOIN clause.
+
+
 ### Window functions: OVER clause  
 1. window function performs a calculation across a specified set of table rows with reference to the current row.
 2. over() clause is a window function that will execute the aggregation formula across a specified set of rows.
