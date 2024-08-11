@@ -77,6 +77,20 @@
 2. ANY clause executes the condition for any one of the values on the list that meets the condition, which is the minimum value by default.
 3. ALL clause executes the condition where all the values on the list meet the condition, which is the maximum value of the list.
 
+### 12. Co-Related Subquery
+1. A subquery is called a co-related query when its execution depends upon the statement(s) written after the bracket.
+2. One needs to choose between writing a subquery or a co-related query depending on its performance.
+3. EXPLAIN ANALYSE clause before any query will provide the query execution plan through which one can understand the query performance.
+
+### 13. Common Table Expression (CTE)
+1. Common Table Expression (CTE) creates a temporary table within a query.
+2. WITH and AS clauses are used in combination to create CTE.
+3. One can create multiple CTEs inside a query.
+
+### 14. CTE Benefits & Other Applications
+1. There are multiple benefits of writing CTEs such as Query readability, reusability, and creating views.
+2. Recursive subqueries in CTEs have several applications involving data series generation.
+
 
 
 ### Window functions: OVER clause  
