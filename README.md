@@ -65,8 +65,17 @@
 
 ### 9. Join More Than Two Tables
 1. Whenever you get a requirement from a business stakeholder break the challenge down into simpler pieces before writing a query.
-2. Entity Relationship Diagram (ERD) will help you to understand the relationship between the tables.
+2. Entity Relationship Diagram (ERD) will help you to understand the relationship between the tables. [Link](https://dbdiagram.io/home)
 3. group_concat function will enable you to combine text from multiple rows into one row.
+
+### 10. Subqueries
+1. Sub Queries are queries that generate output that will be used as input to the main query.
+2. Queries that provide a single record, list, or even a table as output can be used as a subquery.
+
+### 11. ANY, ALL Operators
+1. IN, ANY & ALL clauses expect a list as input.
+2. ANY clause executes the condition for any one of the values on the list that meets the condition, which is the minimum value by default.
+3. ALL clause executes the condition where all the values on the list meet the condition, which is the maximum value of the list.
 
 
 
