@@ -87,9 +87,27 @@
 2. WITH and AS clauses are used in combination to create CTE.
 3. One can create multiple CTEs inside a query.
 
-### 14. CTE Benefits & Other Applications
+### CTE Benefits & Other Applications
 1. There are multiple benefits of writing CTEs such as Query readability, reusability, and creating views.
 2. Recursive subqueries in CTEs have several applications involving data series generation.
+
+### Database Normalization and Data Integrity
+1. Database design is a critical step that consists of 3 stages: Conceptual Model, Entity Relationship Diagram (ERD), and Database Schema.
+2. Data Integrity is the measure of consistency and accuracy of data over its life cycle.
+3. ‘Link table’ is a term used to describe a table that acts as the link between the two tables.
+4. Normalization is a process of organizing a database to avoid duplication, and improve data integrity.
+
+### Entity Relationship Diagram (ERD)
+1. You can create an entity relationship diagram (ERD) in MySQL.
+2. Numeric, String and Date are the major data types which have further subtypes.
+
+### Data Types: Numeric (INT, DECIMAL, FLOAT, DOUBLE)
+1. Integers and Floating points are the major classifications of numerical data types.
+2. Each of these classifications has subtypes such as TINYINT, SMALLINT, FLOAT, DECIMAL, etc.
+3. Different data types occupy different storage space.
+4. Knowing the data type and its storage space will enable you to design an efficient database.
+5. Float and double are the data types you can use for storing approximate values such as scientific calculations.
+6. Decimal type is used to store accurate values such as financial transactions.
 
 
 
