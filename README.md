@@ -91,7 +91,7 @@
 1. There are multiple benefits of writing CTEs such as Query readability, reusability, and creating views.
 2. Recursive subqueries in CTEs have several applications involving data series generation.
 
-### Database Normalization and Data Integrity
+### 14. Database Normalization and Data Integrity
 1. Database design is a critical step that consists of 3 stages: Conceptual Model, Entity Relationship Diagram (ERD), and Database Schema.
 2. Data Integrity is the measure of consistency and accuracy of data over its life cycle.
 3. ‘Link table’ is a term used to describe a table that acts as the link between the two tables.
@@ -108,6 +108,23 @@
 4. Knowing the data type and its storage space will enable you to design an efficient database.
 5. Float and double are the data types you can use for storing approximate values such as scientific calculations.
 6. Decimal type is used to store accurate values such as financial transactions.
+
+### Data Types: String (VARCHAR, CHAR, ENUM)
+1. Fixed and variable length strings are two major types of strings.
+2. ENUM is a string object data type used to specify a fixed number of options for column values.
+3. It is a best practice to define the data type for all the columns.
+4. One can add rows manually to the table in the SQL editor.
+5. BLOB is a data type that will enable you to store images as binary text in a table.
+
+### Data Types: Date, Time (DATETIME, DATE, TIME, YEAR, TIMESTAMP)
+1. Date, Year, and Datetime are the major date types under Date, Time category.
+2. Defining correct data types will enable you to prevent errors in the database
+3. You can use the ‘TIMESTAMP’ data type to automatically enter the current timestamp at which the record is created.
+
+### Data Types: JSON, Spatial (JSON, GEOMETRY)
+1. JSON is a popular and efficient data type to store massive amounts of data.
+2. ‘→’ operator is used to extract a JSON object.
+3. SPATIAL datatype is used to represent geospatial data types like latitude, longitude, etc.
 
 
 
