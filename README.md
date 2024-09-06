@@ -1,5 +1,33 @@
 # SQL Ninjas Bootcamp
 
+### Database?   
+A database is an organized collection of data that is stored & accessed electronically. Think of it as a digital filing system where information is stored in a structured way, making it easy to retrieve, manage, and update.
+- Structured Storage: Data is stored in a specific format, often in tables with rows and columns, making it easy to query and analyse.
+- Consistency: The data stored is consistent, meaning that the same type of data is stored in the same way across the database.
+- Integrity: Data integrity ensures that the data is accurate and reliable.
+- Scalability: Databases can grow in size, handling more data without performance issues.
+
+### Database Management System?
+A Database Management System (DBMS) is software that allows users to create, manage, and interact with databases. It acts as an intermediary between the user and the database, enabling users to easily retrieve, insert, update, and delete data while ensuring that the data is secure and consistent.
+
+### Relational Database Management System? 
+RDBMS stands for Relational Database Management System. It is a type of database management system (DBMS) that stores data in a structured format, using rows and columns, which are organized into tables. The key feature of an RDBMS is that it uses relationships (or links) between tables to manage and query data efficiently.   
+Here are some key points about RDBMS:
+- Tables: Data is stored in tables, where each table consists of rows (records) and columns (attributes).
+- Primary Key: Each table typically has a primary key, a unique identifier for each row in the table.
+- Foreign Key: Relationships between tables are established using foreign keys, which are fields in one table that refer to the primary key in another table.         
+SQL (Structured Query Language): RDBMS systems use SQL for querying, updating, and managing the data.
+- Normalization: RDBMSs often involve the normalization process, which organizes data to minimize redundancy and dependency. Examples of popular RDBMSs include MySQL, PostgreSQL, Microsoft SQL Server, and Oracle Database.
+
+### SQL
+SQL (Structured Query Language) is a standardized programming language used to manage and manipulate relational databases. It is the primary language used for querying, inserting, updating, and deleting data in relational databases, as well as for creating and modifying the database structure itself.
+- Data Query Language (DQL): Used to query data from the database. The most common command is SELECT.
+- Data Manipulation Language (DML): Used to insert, update, and delete data.
+- Data Definition Language (DDL): Used to define or alter the structure of the database, such as creating, altering, or dropping tables.
+- Data Control Language (DCL): Used to control access to the data, like granting and revoking permissions.
+- Transaction Control Language (TCL): Used to manage transactions in the database, ensuring data integrity.
+- COMMIT; (saves all changes made in the current transaction), ROLLBACK; (undoes all changes made in the current transaction)
+
 ### 1. Retrieve Data Using Text Query (SELECT, WHERE, DISTINCT, LIKE)
 1. SELECT, FROM, and WHERE are the basic SQL functions.
 2. star means all columns. Using ‘*’ after the SELECT query will select all columns of a database.
